@@ -1,0 +1,31 @@
+{
+  "name": "artistly",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/baloo-2": "^5.2.6",
+    "@fontsource/open-sans": "^5.2.6",
+    "@hookform/resolvers": "^5.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.19.1",
+    "lucide-react": "^0.522.0",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.58.1",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "tailwindcss": "^4"
+  }
+}
