@@ -119,7 +119,7 @@ export default function Home() {
                   className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
                 >
                   <div className="text-party-yellow text-2xl mb-4">★★★★★</div>
-                  <p className="text-gray-700 italic mb-6">"{testimonial.quote}"</p>
+                  <p className="text-gray-700 italic mb-6">&quot;{testimonial.quote}&quot;</p>
                   <div className="border-t border-gray-200 pt-4">
                     <p className="font-bold">{testimonial.name}</p>
                     <p className="text-sm text-gray-500">{testimonial.event}</p>
